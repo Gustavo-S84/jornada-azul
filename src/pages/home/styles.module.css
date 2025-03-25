@@ -1,0 +1,13 @@
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.column {
+    max-width: 630px;
+}
+
+
+
+/* .column  */
