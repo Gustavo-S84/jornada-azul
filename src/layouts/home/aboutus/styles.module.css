@@ -1,0 +1,36 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    border-top: var(--bw-1) solid var(--color-2);
+    box-sizing: border-box;
+    padding: 100px 0;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    max-width: var(--max-w);
+}
+
+.description {
+    max-width: 500px;
+    margin-top: 20px;
+}
+
+.title {
+    font-size: 70px;
+    font-family: "Inter";
+    font-weight: 900;
+}
+
+.description {
+    font-size: 20px;
+    font-family: "Inter";
+    font-weight: 400;
+}
+
+.image {
+    width: 100%;
+}

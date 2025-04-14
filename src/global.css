@@ -2,13 +2,24 @@
 
 
 body {
-    background-color: #F6FBFF;
+    background-color: #F1EBDF;
     min-height: 100vh;   
 }
 
-.bg-1 {
-    background-color: #588DFF;
+:root {
+    --max-w: 1200px;
+
+    --br-1: 8px; 
+
+    --bw-1: 2px;
+
+    --color-1: #F1EBDF;
+    --color-2: #000000;
+    --gradient-1: linear-gradient(102.87deg, #3B3B3B 0.99%, #0A0A0A 100%);
+
 }
+
+
 
 
 .color-1 {
@@ -17,5 +28,5 @@ body {
 
 
 .color-button {
-    color: white;
+    color: #F1EBDF;
 }

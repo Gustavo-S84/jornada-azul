@@ -1,0 +1,7 @@
+.container {
+    height: 100px;
+    border-bottom: 1px black solid;
+    width: 100%;
+
+    background-color: var(--color-1);
+}

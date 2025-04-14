@@ -1,6 +1,6 @@
 import Description_texts from "../../components/global/texts/description/defualt";
 import Title from "../../components/global/texts/titles/default";
-import Container_Layouts from "../../layouts/container";
+import Container_Layouts from "../../layouts/global/container";
 import styles from "./styles.module.css";
 
 import { data } from "./data";
